@@ -86,4 +86,7 @@ target/
 *.swo
 
 # Mypy cache
-.mypy_cache/
+.pick mypy_cache/
+
+# jupyter 
+.virtual_documents/
