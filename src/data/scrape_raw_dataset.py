@@ -79,6 +79,7 @@ def main(output_filepath):
                 _full_article = get_full_article(article['url'])
                 if _full_article:
                     article['text'] = _full_article.text
+                    article['topic'] = topic
                     db.insert(article)
 
     logger = logging.getLogger(__name__)
