@@ -1,0 +1,4 @@
+outs:
+- md5: 60af4475625bf54e7b23a2aa437d3103
+  size: 5982174
+  path: db.json
